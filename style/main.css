@@ -1,106 +1,105 @@
-/* Import custom text */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+    /* Import custom text */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-* {
-    margin: 0;
-}
+    * {
+        margin: 0;
+    }
 
-body {
-    min-height: 100vh; /* Set body to full viewport height */
-    margin: 0; /* Remove default margin */
-    display: flex;
-    flex-direction: column; /* Align columns vertically */
-}
+    body {
+        min-height: 100vh; /* Set body to full viewport height */
+        margin: 0; /* Remove default margin */
+        display: flex;
+        flex-direction: column; /* Align columns vertically */
+    }
 
-.row {
-    flex: 1; /* Make the row stretch to fill the available height */
-    display: flex;
-}
+    .row {
+        flex: 1; /* Make the row stretch to fill the available height */
+        display: flex;
+    }
 
-.col {
-    flex: 1; /* Each column takes an equal portion of the row */ 
-    padding: 10px;
-}
-/* Main column */
-.main-column {
-    background: #b39e9f;
-    color: white;
-    margin-bottom: 20px;
-}
+    .col {
+        flex: 1; /* Each column takes an equal portion of the row */ 
+        padding: 10px;
+    }
+    /* Main column */
+    .main-column {
+        background: #b39e9f;
+        color: white;
+        margin-bottom: 20px;
+    }
 
-.main-column img {
-    padding: 20px;
-    height: 250px;
-}
-/* Second column */
-.sec-column {
-    margin-bottom: 20px;
-}
+    .main-column img {
+        padding: 20px;
+        height: 250px;
+    }
+    /* Second column */
+    .sec-column {
+        margin-bottom: 20px;
+    }
 
-.profile-container {
-    padding: 40px;
+    .profile-container {
+        padding: 40px;
 
-}
+    }
 
-.profile-container h1 {
-    text-align: left;
-    margin-left: 50px;
-    font-family: 'Montserrat', sans-serif;
-}
+    .profile-container h1 {
+        text-align: left;
+        margin-left: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
 
-.profile-container p {
-    text-align: left;
-    margin-left: 50px;
-    font-size: 25px;
-}
+    .profile-container p {
+        text-align: left;
+        margin-left: 50px;
+        font-size: 25px;
+    }
 
-.contact-container h1{
-    font-family: 'Montserrat', sans-serif;
-}
+    .contact-container h1{
+        font-family: 'Montserrat', sans-serif;
+    }
 
-.contact-container i {
-    margin-right: 15px;
-}
+    .contact-container i {
+        margin-right: 15px;
+    }
 
-.contact-container p {
-    margin-left: 90px;
-    text-align: left;
-    font-size: 25px;
-}
-/* Second column background*/
-.container {
-    
-    height: 15%;
-    background-color: #ddd0d1;
-}
+    .contact-container p {
+        margin-left: 90px;
+        text-align: left;
+        font-size: 25px;
+    }
+    /* Second column background*/
+    .container {
+        height: 15%;
+        background-color: #ddd0d1;
+    }
 
-.name-container {
-    padding: 60px;
-}
+    .name-container {
+        padding: 60px;
+    }
 
-.name-container h1 {
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
+    .name-container h1 {
+        color: black;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
 
-.name-container h2 {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-}
+    .name-container h2 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
 
-.info-container {
-    padding: 10px;
-}
+    .info-container {
+        padding: 10px;
+    }
 
-.info-container i{
-    margin-right: 15px;
-}
-.info-container h1{
-    font-family: 'Montserrat', sans-serif;
-}
-.info-container p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 19px;
-}
+    .info-container i{
+        margin-right: 15px;
+    }
+    .info-container h1{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .info-container p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
