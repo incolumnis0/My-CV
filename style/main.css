@@ -51,7 +51,7 @@
     .profile-container p {
         text-align: left;
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact-container h1{
@@ -65,10 +65,11 @@
     .contact-container p {
         margin-left: 90px;
         text-align: left;
-        font-size: 25px;
+        font-size: 20px;
     }
     /* Second column background*/
     .container {
+        
         height: 15%;
         background-color: #ddd0d1;
     }
