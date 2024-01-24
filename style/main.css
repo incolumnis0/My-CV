@@ -21,20 +21,20 @@ body {
     flex: 1; /* Each column takes an equal portion of the row */ 
     padding: 10px;
 }
-
+/* Main column */
 .main-column {
-    border: #b39e9f 1px solid;
     background: #b39e9f;
-    color: white
+    color: white;
+    margin-bottom: 20px;
 }
 
 .main-column img {
     padding: 20px;
     height: 250px;
 }
-
+/* Second column */
 .sec-column {
-    border: #b39e9f 1px solid;
+    margin-bottom: 20px;
 }
 
 .profile-container {
@@ -67,14 +67,15 @@ body {
     text-align: left;
     font-size: 25px;
 }
-
+/* Second column background*/
 .container {
+    
     height: 15%;
     background-color: #ddd0d1;
 }
 
 .name-container {
-    padding: 30px;
+    padding: 60px;
 }
 
 .name-container h1 {
